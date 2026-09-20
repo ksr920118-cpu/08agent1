@@ -1,0 +1,209 @@
+- generic [active] [ref=f9e1]:
+  - link "본문 바로가기" [ref=f9e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f9e3]:
+    - banner [ref=f9e4]:
+      - generic [ref=f9e5]:
+        - heading [level=1] [ref=f9e6]:
+          - link "웹" [ref=f9e7] [cursor=pointer]:
+            - /url: https://kimhyeji324.tistory.com/
+        - generic [ref=f9e8]:
+          - generic [ref=f9e9]:
+            - generic: 블로그 내 검색
+            - textbox "블로그 내 검색" [ref=f9e10]:
+              - /placeholder: 검색내용을 입력하세요.
+            - button "검색" [ref=f9e11] [cursor=pointer]
+          - button [ref=f9e13] [cursor=pointer]:
+            - img "블로그 이미지" [ref=f9e14]
+        - navigation [ref=f9e15]:
+          - list [ref=f9e16]:
+            - listitem [ref=f9e17]:
+              - link "홈" [ref=f9e18] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f9e19]:
+              - link "태그" [ref=f9e20] [cursor=pointer]:
+                - /url: /tag
+            - listitem [ref=f9e21]:
+              - link "방명록" [ref=f9e22] [cursor=pointer]:
+                - /url: /guestbook
+    - generic [ref=f9e24]:
+      - article [ref=f9e25]:
+        - generic [ref=f9e26]:
+          - generic [ref=f9e28]:
+            - generic [ref=f9e29]: 카테고리 없음
+            - heading "퇴근 후 30분, 집에서 끝내는 홈트레이닝 루틴" [level=1] [ref=f9e30]
+            - generic [ref=f9e31]: by 웹 부가설명 2026. 8. 15.
+          - generic [ref=f9e32]:
+            - generic [ref=f9e33]:
+              - paragraph
+              - figure [ref=f9e34]:
+                - img [ref=f9e36] [cursor=pointer]
+              - figure [ref=f9e37]:
+                - img [ref=f9e39] [cursor=pointer]
+              - text: 기구도, 헬스장도 필요 없습니다. 퇴근 후 30분이면 맨몸운동만으로 전신을 자극할 수 있는 루틴을 소개합니다.
+              - paragraph
+              - heading "워밍업 5분" [level=2] [ref=f9e40]
+              - paragraph [ref=f9e41]: 본격적인 동작 전에 가볍게 몸을 풀어주세요. 워밍업은 부상을 예방하고 운동 효율을 높여줍니다.
+              - paragraph
+              - figure [ref=f9e42]:
+                - img [ref=f9e44] [cursor=pointer]
+              - paragraph
+              - heading "스쿼트·런지·힙브릿지, 세 동작이면 충분" [level=2] [ref=f9e45]
+              - paragraph [ref=f9e46]: 스쿼트는 하체 전체를, 런지는 균형감각까지, 힙브릿지는 코어와 허리를 강화합니다. 초보자는 각 동작을 25회씩 4세트, 세트 사이 30초 휴식으로 시작해보세요.
+              - paragraph
+              - figure [ref=f9e47]:
+                - img [ref=f9e49] [cursor=pointer]
+              - paragraph
+              - heading "운동보다 중요한 건 회복" [level=2] [ref=f9e50]
+              - paragraph [ref=f9e51]: 근육은 운동이 아니라 수면 중에 자랍니다. 오늘 30분을 채웠다면, 오늘 밤 숙면도 루틴의 일부라는 것을 잊지 마세요.
+            - generic [ref=f9e52]:
+              - generic [ref=f9e53]:
+                - button "좋아요 공감" [ref=f9e55] [cursor=pointer]:
+                  - generic [ref=f9e56]:
+                    - generic [ref=f9e57]: 좋아요
+                    - generic [ref=f9e58]: 공감
+                - button "공유하기" [ref=f9e60] [cursor=pointer]
+                - button "게시글 관리" [ref=f9e63] [cursor=pointer]
+              - button [ref=f9e65] [cursor=pointer]:
+                - emphasis [ref=f9e66]: 구독하기
+          - generic [ref=f9e67]:
+            - heading "태그" [level=2] [ref=f9e68]
+            - link "30분운동" [ref=f9e69] [cursor=pointer]:
+              - /url: /tag/30%EB%B6%84%EC%9A%B4%EB%8F%99
+            - text: ","
+            - link "맨몸운동" [ref=f9e70] [cursor=pointer]:
+              - /url: /tag/%EB%A7%A8%EB%AA%B8%EC%9A%B4%EB%8F%99
+            - text: ","
+            - link "퇴근후운동" [ref=f9e71] [cursor=pointer]:
+              - /url: /tag/%ED%87%B4%EA%B7%BC%ED%9B%84%EC%9A%B4%EB%8F%99
+            - text: ","
+            - link "홈트레이닝" [ref=f9e72] [cursor=pointer]:
+              - /url: /tag/%ED%99%88%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D
+            - text: ","
+            - link "홈트루틴" [ref=f9e73] [cursor=pointer]:
+              - /url: /tag/%ED%99%88%ED%8A%B8%EB%A3%A8%ED%8B%B4
+          - generic [ref=f9e74]:
+            - generic [ref=f9e76]:
+              - generic [ref=f9e77]:
+                - link "웹" [ref=f9e78] [cursor=pointer]:
+                  - /url: https://kimhyeji324.tistory.com
+                - link "웹 부가설명 님의 블로그입니다." [ref=f9e79] [cursor=pointer]:
+                  - /url: https://kimhyeji324.tistory.com
+                - button "구독하기" [ref=f9e80] [cursor=pointer]
+              - link [ref=f9e83] [cursor=pointer]:
+                - /url: https://kimhyeji324.tistory.com
+            - generic [ref=f9e88]:
+              - generic [ref=f9e89]: 댓글0
+              - generic [ref=f9e94]:
+                - generic [ref=f9e96]:
+                  - generic [ref=f9e97]: ECON Note (이콘노트)
+                  - generic: 댓글
+                  - generic [ref=f9e98]: 내용을 입력하세요.
+                - generic [ref=f9e99]:
+                  - generic [ref=f9e100] [cursor=pointer]:
+                    - checkbox "비밀글"
+                    - generic: 비밀글
+                  - button "등록" [disabled] [ref=f9e102]
+      - complementary [ref=f9e103]:
+        - navigation [ref=f9e105]:
+          - list [ref=f9e106]:
+            - listitem [ref=f9e107]:
+              - link "분류 전체보기" [ref=f9e108] [cursor=pointer]:
+                - /url: /category
+              - list [ref=f9e109]:
+                - listitem [ref=f9e110]:
+                  - link "웹1" [ref=f9e111] [cursor=pointer]:
+                    - /url: /category/%EC%9B%B91
+                - listitem [ref=f9e112]:
+                  - link "웹2" [ref=f9e113] [cursor=pointer]:
+                    - /url: /category/%EC%9B%B92
+                - listitem [ref=f9e114]:
+                  - link "웹3" [ref=f9e115] [cursor=pointer]:
+                    - /url: /category/%EC%9B%B93
+                - listitem [ref=f9e116]:
+                  - link "웹4" [ref=f9e117] [cursor=pointer]:
+                    - /url: /category/%EC%9B%B94
+                - listitem [ref=f9e118]:
+                  - link "자료 제공" [ref=f9e119] [cursor=pointer]:
+                    - /url: /category/%EC%9E%90%EB%A3%8C%20%EC%A0%9C%EA%B3%B5
+        - generic [ref=f9e120]:
+          - generic [ref=f9e121]:
+            - heading "공지사항" [level=2] [ref=f9e122]
+            - list
+          - generic [ref=f9e123]:
+            - heading [level=2] [ref=f9e124]:
+              - link "최근글" [ref=f9e125] [cursor=pointer]:
+                - /url: "#recent"
+              - link "인기글" [ref=f9e126] [cursor=pointer]:
+                - /url: "#popular"
+            - list [ref=f9e128]:
+              - listitem [ref=f9e129]:
+                - link "퇴근 후 30분, 집에서 끝내는 홈트레이닝 루틴 2026.08.15" [ref=f9e130] [cursor=pointer]:
+                  - /url: /283
+                  - generic [ref=f9e131]: 퇴근 후 30분, 집에서 끝내는 홈트레이닝 루틴
+                  - generic [ref=f9e132]: 2026.08.15
+              - listitem [ref=f9e133]:
+                - link "30대 재테크의 시작, 종잣돈은 어떻게 모아야 할⋯ 2026.08.15" [ref=f9e134] [cursor=pointer]:
+                  - /url: /282
+                  - generic [ref=f9e135]: 30대 재테크의 시작, 종잣돈은 어떻게 모아야 할⋯
+                  - generic [ref=f9e136]: 2026.08.15
+              - listitem [ref=f9e137]:
+                - link "매일 30분, AI와 함께 일하는 루틴 만들기 2026.08.13" [ref=f9e138] [cursor=pointer]:
+                  - /url: /281
+                  - generic [ref=f9e139]: 매일 30분, AI와 함께 일하는 루틴 만들기
+                  - generic [ref=f9e140]: 2026.08.13
+              - listitem [ref=f9e141]:
+                - link "1개월차 모작(클론 코딩) 2025.09.24" [ref=f9e142] [cursor=pointer]:
+                  - /url: /280
+                  - generic [ref=f9e143]: 1개월차 모작(클론 코딩)
+                  - generic [ref=f9e144]: 2025.09.24
+              - listitem [ref=f9e145]:
+                - link "2025.09.17(수) 1일차 2025.09.17" [ref=f9e146] [cursor=pointer]:
+                  - /url: /279
+                  - generic [ref=f9e147]: 2025.09.17(수) 1일차
+                  - generic [ref=f9e148]: 2025.09.17
+          - generic [ref=f9e149]:
+            - heading "태그" [level=2] [ref=f9e150]
+            - link "홈트루틴," [ref=f9e151] [cursor=pointer]:
+              - /url: /tag/%ED%99%88%ED%8A%B8%EB%A3%A8%ED%8B%B4
+            - link "생산성," [ref=f9e152] [cursor=pointer]:
+              - /url: /tag/%EC%83%9D%EC%82%B0%EC%84%B1
+            - link "재테크습관," [ref=f9e153] [cursor=pointer]:
+              - /url: /tag/%EC%9E%AC%ED%85%8C%ED%81%AC%EC%8A%B5%EA%B4%80
+            - link "저축," [ref=f9e154] [cursor=pointer]:
+              - /url: /tag/%EC%A0%80%EC%B6%95
+            - link "30대재테크," [ref=f9e155] [cursor=pointer]:
+              - /url: /tag/30%EB%8C%80%EC%9E%AC%ED%85%8C%ED%81%AC
+            - link "종잣돈모으기," [ref=f9e156] [cursor=pointer]:
+              - /url: /tag/%EC%A2%85%EC%9E%A3%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0
+            - link "맨몸운동," [ref=f9e157] [cursor=pointer]:
+              - /url: /tag/%EB%A7%A8%EB%AA%B8%EC%9A%B4%EB%8F%99
+            - link "30분운동," [ref=f9e158] [cursor=pointer]:
+              - /url: /tag/30%EB%B6%84%EC%9A%B4%EB%8F%99
+            - link "홈트레이닝," [ref=f9e159] [cursor=pointer]:
+              - /url: /tag/%ED%99%88%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D
+            - link "일잘러," [ref=f9e160] [cursor=pointer]:
+              - /url: /tag/%EC%9D%BC%EC%9E%98%EB%9F%AC
+            - link "돈모으기," [ref=f9e161] [cursor=pointer]:
+              - /url: /tag/%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0
+            - link "퇴근후운동," [ref=f9e162] [cursor=pointer]:
+              - /url: /tag/%ED%87%B4%EA%B7%BC%ED%9B%84%EC%9A%B4%EB%8F%99
+            - link "루틴," [ref=f9e163] [cursor=pointer]:
+              - /url: /tag/%EB%A3%A8%ED%8B%B4
+            - link "업무자동화," [ref=f9e164] [cursor=pointer]:
+              - /url: /tag/%EC%97%85%EB%AC%B4%EC%9E%90%EB%8F%99%ED%99%94
+            - link "AI" [ref=f9e165] [cursor=pointer]:
+              - /url: /tag/AI
+          - generic [ref=f9e166]:
+            - heading "전체 방문자" [level=2] [ref=f9e167]
+            - paragraph [ref=f9e168]: 3,410
+            - paragraph [ref=f9e169]: "Today : 0"
+            - paragraph [ref=f9e170]: "Yesterday : 0"
+          - generic:
+            - list
+    - contentinfo [ref=f9e171]:
+      - generic [ref=f9e172]:
+        - link "TOP" [ref=f9e173] [cursor=pointer]:
+          - /url: "#"
+        - paragraph [ref=f9e174]: Designed by 티스토리
+        - paragraph [ref=f9e175]: © Daum Corp.

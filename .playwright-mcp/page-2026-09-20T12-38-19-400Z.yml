@@ -1,0 +1,41 @@
+- generic [active] [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e5]:
+      - paragraph [ref=f10e6]: HOME TRAINING
+      - heading "퇴근 후 30분, 집에서 끝내는 홈트레이닝 루틴" [level=1] [ref=f10e7]: 퇴근 후 30분,집에서 끝내는홈트레이닝 루틴
+      - paragraph [ref=f10e8]: 기구도, 헬스장도 필요 없습니다.맨몸운동만으로 전신을 자극해요.
+      - paragraph [ref=f10e9]: → 키 또는 아래 버튼으로 넘겨보세요
+    - generic [ref=f10e11]:
+      - paragraph [ref=f10e12]: STEP 3
+      - heading "초보자라면 이렇게 시작해보세요" [level=2] [ref=f10e13]
+      - generic [ref=f10e14]:
+        - generic [ref=f10e15]:
+          - text: 0회
+          - generic [ref=f10e16]: 각 동작당
+        - generic [ref=f10e17]: ×
+        - generic [ref=f10e18]:
+          - text: 0세트
+          - generic [ref=f10e19]: 반복
+        - generic [ref=f10e20]: +
+        - generic [ref=f10e21]:
+          - text: 0초
+          - generic [ref=f10e22]: 세트 사이 휴식
+      - generic [ref=f10e23]:
+        - generic "세트 진행" [ref=f10e24]:
+          - button "1세트 완료 표시" [ref=f10e25] [cursor=pointer]: "1"
+          - button "2세트 완료 표시" [ref=f10e26] [cursor=pointer]: "2"
+          - button "3세트 완료 표시" [ref=f10e27] [cursor=pointer]: "3"
+          - button "4세트 완료 표시" [ref=f10e28] [cursor=pointer]: "4"
+        - button "휴식 30초 시작" [ref=f10e29] [cursor=pointer]
+  - navigation [ref=f10e30]:
+    - button "이전 슬라이드" [ref=f10e31] [cursor=pointer]: ‹
+    - generic [ref=f10e32]:
+      - button "시작" [ref=f10e33] [cursor=pointer]
+      - button "워밍업" [ref=f10e34] [cursor=pointer]
+      - button "세 동작" [ref=f10e35] [cursor=pointer]
+      - button "초보자 루틴" [ref=f10e36] [cursor=pointer]
+      - button "회복" [ref=f10e37] [cursor=pointer]
+      - button "마무리" [ref=f10e38] [cursor=pointer]
+    - generic [ref=f10e39]: 4 / 6
+    - button "전체화면" [ref=f10e40] [cursor=pointer]: ⛶
+    - button "다음 슬라이드" [ref=f10e41] [cursor=pointer]: ›

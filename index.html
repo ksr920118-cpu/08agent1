@@ -1,1 +1,156 @@
-안녕하세요.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>퇴근 후 30분 홈트레이닝 루틴</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <main class="deck" id="deck">
+
+    <!-- 1. 타이틀 -->
+    <section class="slide active" data-title="시작">
+      <div class="content center">
+        <p class="eyebrow anim" style="--d:0">HOME TRAINING</p>
+        <h1 class="anim" style="--d:1">퇴근 후 <span class="grad">30분</span>,<br>집에서 끝내는<br>홈트레이닝 루틴</h1>
+        <p class="lead anim" style="--d:2">기구도, 헬스장도 필요 없습니다.<br>맨몸운동만으로 전신을 자극해요.</p>
+        <p class="hint anim" style="--d:3">→ 키 또는 아래 버튼으로 넘겨보세요</p>
+      </div>
+    </section>
+
+    <!-- 2. 워밍업 -->
+    <section class="slide" data-title="워밍업">
+      <div class="content split">
+        <div>
+          <p class="eyebrow anim" style="--d:0">STEP 1</p>
+          <h2 class="anim" style="--d:1">워밍업 <span class="grad">5분</span></h2>
+          <p class="lead anim" style="--d:2">본격적인 동작 전에 가볍게 몸을 풀어주세요.</p>
+          <ul class="checklist">
+            <li class="anim" style="--d:3">부상을 예방하고</li>
+            <li class="anim" style="--d:4">운동 효율을 높여줍니다</li>
+          </ul>
+        </div>
+        <div class="visual anim" style="--d:2">
+          <div class="ring" data-ring="5" data-max="30">
+            <svg viewBox="0 0 120 120">
+              <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+              <circle class="ring-fg" cx="60" cy="60" r="52"></circle>
+            </svg>
+            <div class="ring-text"><b class="count" data-to="5">0</b><small>분 워밍업</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 세 동작 -->
+    <section class="slide" data-title="세 동작">
+      <div class="content">
+        <p class="eyebrow anim" style="--d:0">STEP 2</p>
+        <h2 class="anim" style="--d:1">스쿼트·런지·힙브릿지,<br><span class="grad">세 동작이면 충분</span></h2>
+        <div class="cards">
+          <article class="card anim" style="--d:2">
+            <div class="card-icon">🦵</div>
+            <h3>스쿼트</h3>
+            <p>하체 전체를 자극</p>
+          </article>
+          <article class="card anim" style="--d:3">
+            <div class="card-icon">⚖️</div>
+            <h3>런지</h3>
+            <p>균형감각까지 강화</p>
+          </article>
+          <article class="card anim" style="--d:4">
+            <div class="card-icon">🌉</div>
+            <h3>힙브릿지</h3>
+            <p>코어와 허리를 강화</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 초보자 루틴 -->
+    <section class="slide" data-title="초보자 루틴">
+      <div class="content">
+        <p class="eyebrow anim" style="--d:0">STEP 3</p>
+        <h2 class="anim" style="--d:1">초보자라면 이렇게 <span class="grad">시작</span>해보세요</h2>
+        <div class="stats">
+          <div class="stat anim" style="--d:2">
+            <b class="count" data-to="25">0</b><span>회</span>
+            <small>각 동작당</small>
+          </div>
+          <div class="stat-x anim" style="--d:3">×</div>
+          <div class="stat anim" style="--d:3">
+            <b class="count" data-to="4">0</b><span>세트</span>
+            <small>반복</small>
+          </div>
+          <div class="stat-x anim" style="--d:4">+</div>
+          <div class="stat anim" style="--d:4">
+            <b class="count" data-to="30">0</b><span>초</span>
+            <small>세트 사이 휴식</small>
+          </div>
+        </div>
+
+        <div class="timer anim" style="--d:5">
+          <div class="sets" id="sets" aria-label="세트 진행"></div>
+          <button class="btn-timer" id="restBtn" type="button">휴식 30초 시작</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 회복 -->
+    <section class="slide" data-title="회복">
+      <div class="content split">
+        <div>
+          <p class="eyebrow anim" style="--d:0">STEP 4</p>
+          <h2 class="anim" style="--d:1">운동보다 중요한 건<br><span class="grad">회복</span></h2>
+          <p class="lead anim" style="--d:2">근육은 운동이 아니라<br><b>수면 중에 자랍니다.</b></p>
+          <p class="lead anim" style="--d:3">오늘 30분을 채웠다면,<br>오늘 밤 숙면도 루틴의 일부입니다.</p>
+        </div>
+        <div class="visual anim" style="--d:2">
+          <div class="moon" aria-hidden="true">
+            <span class="star s1">✦</span>
+            <span class="star s2">✦</span>
+            <span class="star s3">✦</span>
+            <div class="moon-body">🌙</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 마무리 -->
+    <section class="slide" data-title="마무리">
+      <div class="content center">
+        <p class="eyebrow anim" style="--d:0">SUMMARY</p>
+        <h2 class="anim" style="--d:1">오늘의 루틴 한눈에 보기</h2>
+        <ol class="summary">
+          <li class="anim" style="--d:2"><b>워밍업</b> 5분</li>
+          <li class="anim" style="--d:3"><b>스쿼트 · 런지 · 힙브릿지</b> 25회 × 4세트</li>
+          <li class="anim" style="--d:4"><b>세트 사이 휴식</b> 30초</li>
+          <li class="anim" style="--d:5"><b>숙면</b> 회복까지가 루틴</li>
+        </ol>
+        <p class="tags anim" style="--d:6">#30분운동 #맨몸운동 #퇴근후운동 #홈트레이닝 #홈트루틴</p>
+        <p class="source anim" style="--d:7">출처: <a href="https://kimhyeji324.tistory.com/283" target="_blank" rel="noopener">퇴근 후 30분, 집에서 끝내는 홈트레이닝 루틴</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="controls">
+    <button class="nav-btn" id="prevBtn" type="button" aria-label="이전 슬라이드">‹</button>
+    <div class="dots" id="dots"></div>
+    <span class="page" id="pageNum">1 / 6</span>
+    <button class="nav-btn" id="fsBtn" type="button" aria-label="전체화면">⛶</button>
+    <button class="nav-btn" id="nextBtn" type="button" aria-label="다음 슬라이드">›</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

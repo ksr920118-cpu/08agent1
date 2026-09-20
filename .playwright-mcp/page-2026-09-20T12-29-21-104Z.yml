@@ -1,0 +1,164 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#kakaoBody"
+    - link "메뉴 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#kakaoLnb"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - heading [level=1] [ref=e8]:
+            - link "티스토리" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - navigation [ref=e11]:
+            - heading "서비스 주요 메뉴" [level=2]
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "홈" [ref=e14] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e15]:
+                - link "피드" [ref=e16] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e17]:
+                - link "스킨" [ref=e18] [cursor=pointer]:
+                  - /url: /skin
+              - listitem [ref=e19]:
+                - link "포럼" [ref=e20] [cursor=pointer]:
+                  - /url: /community/forum
+          - generic [ref=e22]:
+            - heading "검색" [level=2]
+            - search [ref=e23]:
+              - group "티스토리 검색" [ref=e24]:
+                - generic [ref=e25]:
+                  - textbox "검색" [ref=e27]:
+                    - /placeholder: 검색어 입력
+                  - button "검색" [ref=e28] [cursor=pointer]
+        - generic [ref=e32]:
+          - heading "로그인 정보" [level=2]
+          - button "시작하기" [ref=e33] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e44]:
+            - heading "인기글 베스트" [level=2]
+            - generic [ref=e46]:
+              - emphasis [ref=e47]: "1"
+              - link "한끼의 품격🤩" [ref=e48] [cursor=pointer]:
+                - /url: https://sma3431.tistory.com
+              - link [ref=e49] [cursor=pointer]:
+                - /url: https://sma3431.tistory.com/282
+                - strong [ref=e51]: 회 주문하면 메인을 못 먹을 정도로 스끼다시가 나오는 곳
+                - img "컨텐츠 이미지" [ref=e53]
+            - generic [ref=e55]:
+              - emphasis [ref=e56]: "2"
+              - link "부산 토박이 아저씨의 맛집 에세이" [ref=e57] [cursor=pointer]:
+                - /url: https://taekwon-v1.tistory.com
+              - link [ref=e58] [cursor=pointer]:
+                - /url: https://taekwon-v1.tistory.com/472
+                - strong [ref=e60]: 콜키지가 5만 원에서 무료로 바뀌어 감사했지만...
+                - img "컨텐츠 이미지" [ref=e62]
+            - generic [ref=e64]:
+              - emphasis [ref=e65]: "3"
+              - link "좌충우돌 돌진하며 도전하는 일반인" [ref=e66] [cursor=pointer]:
+                - /url: https://inonstop.tistory.com
+              - link [ref=e67] [cursor=pointer]:
+                - /url: https://inonstop.tistory.com/entry/%EB%8B%A4%EC%9D%B4%EC%86%8C-%EC%B9%98%EC%8B%A4-%EB%B6%80%ED%92%80%EC%96%B4-%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%8C%BD%EC%B0%BD%EC%8B%A4-%EB%91%90-%EA%B0%9C%EC%94%A9-%EC%A7%91%EC%96%B4%EC%98%A8-%EC%9D%B4%EC%9C%A0
+                - strong [ref=e69]: 다이소 치실 부풀어 오르는 팽창실 두 개씩 집어온 이유
+                - img "컨텐츠 이미지" [ref=e71]
+            - generic [ref=e73]:
+              - emphasis [ref=e74]: "4"
+              - link "BABAEYE" [ref=e75] [cursor=pointer]:
+                - /url: https://mkplanet.tistory.com
+              - link [ref=e76] [cursor=pointer]:
+                - /url: https://mkplanet.tistory.com/entry/%EC%A7%80%EB%B0%A9%EA%B0%84%EC%97%90%EC%84%9C-%EA%B0%84-%EC%84%AC%EC%9C%A0%ED%99%94%EB%A1%9C-%EC%A7%84%ED%96%89%EB%90%98%EB%8A%94-%EC%8B%A0%ED%98%B8-%EC%A6%9D%EC%83%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%B4%90%EC%95%BC-%ED%95%A0-%EA%B2%80%EC%82%AC-5%EA%B0%80%EC%A7%80
+                - strong [ref=e78]: 지방간에서 간 섬유화로 진행되는 신호, 증상보다 먼저 봐야 할 검사 5가지
+                - img "컨텐츠 이미지" [ref=e80]
+            - generic [ref=e82]:
+              - emphasis [ref=e83]: "5"
+              - link "365일 글 쓰는 남자" [ref=e84] [cursor=pointer]:
+                - /url: https://selfish.tistory.com
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://selfish.tistory.com/44
+                - strong [ref=e87]: "영화 호프 : 이상한 레시피로 만든 짬뽕인데 맛있다"
+                - img "컨텐츠 이미지" [ref=e89]
+          - tablist [ref=e92]
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - heading "나의 티스토리" [level=2]
+            - paragraph [ref=e231]: 티스토리에 로그인하시고 더 많은 기능을 이용해보세요!
+            - link "카카오계정으로 시작하기" [ref=e232] [cursor=pointer]:
+              - /url: "#"
+          - separator [ref=e235]
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - heading "서비스정보" [level=2]
+        - generic [ref=e268]:
+          - strong [ref=e269]: TISTORY
+          - paragraph [ref=e270]:
+            - generic [ref=e271]:
+              - text: 티스토리는 Daum에서
+              - img "사랑" [ref=e272]
+              - text: 을 담아 만듭니다.
+            - link "© Daum Corp." [ref=e274] [cursor=pointer]:
+              - /url: https://www.daumcorp.com/
+      - generic [ref=e275]:
+        - heading "문의목록" [level=2]
+        - generic [ref=e276]:
+          - generic [ref=e277]: 메뉴가 궁금할 땐
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "홈" [ref=e280] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e281]:
+              - link "피드" [ref=e282] [cursor=pointer]:
+                - /url: /feed
+            - listitem [ref=e283]:
+              - link "스킨" [ref=e284] [cursor=pointer]:
+                - /url: /skin
+            - listitem [ref=e285]:
+              - link "포럼" [ref=e286] [cursor=pointer]:
+                - /url: /community/forum
+        - generic [ref=e287]:
+          - generic [ref=e288]: 사용하다 궁금할 땐
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - link "스킨가이드" [ref=e291] [cursor=pointer]:
+                - /url: https://tistory.github.io/document-tistory-skin/
+            - listitem [ref=e292]:
+              - link "고객센터" [ref=e293] [cursor=pointer]:
+                - /url: https://cs.daum.net
+            - listitem [ref=e294]:
+              - link "공지사항" [ref=e295] [cursor=pointer]:
+                - /url: https://notice.tistory.com/
+        - generic [ref=e296]:
+          - generic [ref=e297]: 정책이 궁금할 땐
+          - list [ref=e298]:
+            - listitem [ref=e299]:
+              - link "이용약관" [ref=e300] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/info
+            - listitem [ref=e301]:
+              - link "이전 이용약관" [ref=e302] [cursor=pointer]:
+                - /url: /info/contract
+            - listitem [ref=e303]:
+              - link "운영정책" [ref=e304] [cursor=pointer]:
+                - /url: /info/policy
+            - listitem [ref=e305]:
+              - link [ref=e306] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/privacy
+                - emphasis [ref=e307]: 개인정보처리방침
+            - listitem [ref=e308]:
+              - link "청소년보호정책" [ref=e309] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/youthpolicy
+            - listitem [ref=e310]:
+              - link "Email 수집거부정책" [ref=e311] [cursor=pointer]:
+                - /url: /info/emailPolicy
+        - generic [ref=e312]:
+          - generic [ref=e313]: 도움이 필요할 땐
+          - list [ref=e314]:
+            - listitem [ref=e315]:
+              - link "권리침해신고" [ref=e316] [cursor=pointer]:
+                - /url: https://cs.daum.net/redbell/right/libelProcess.html
+            - listitem [ref=e317]:
+              - link "상거래 피해 구제신청" [ref=e318] [cursor=pointer]:
+                - /url: https://top.cafe.daum.net/_c21_/conflict

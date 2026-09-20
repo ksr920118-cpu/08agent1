@@ -1,0 +1,25 @@
+- generic [active] [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e44]:
+      - generic [ref=f10e45]:
+        - paragraph [ref=f10e46]: STEP 1
+        - heading "워밍업 5분" [level=2] [ref=f10e47]
+        - paragraph [ref=f10e48]: 본격적인 동작 전에 가볍게 몸을 풀어주세요.
+        - list [ref=f10e49]:
+          - listitem [ref=f10e50]: ✓ 부상을 예방하고
+          - listitem [ref=f10e51]: ✓ 운동 효율을 높여줍니다
+      - generic [ref=f10e57]:
+        - generic [ref=f10e58]: "5"
+        - generic [ref=f10e59]: 분 워밍업
+  - navigation [ref=f10e30]:
+    - button "이전 슬라이드" [ref=f10e31] [cursor=pointer]: ‹
+    - generic [ref=f10e32]:
+      - button "시작" [ref=f10e33] [cursor=pointer]
+      - button "워밍업" [ref=f10e34] [cursor=pointer]
+      - button "세 동작" [ref=f10e35] [cursor=pointer]
+      - button "초보자 루틴" [ref=f10e36] [cursor=pointer]
+      - button "회복" [ref=f10e37] [cursor=pointer]
+      - button "마무리" [ref=f10e38] [cursor=pointer]
+    - generic [ref=f10e39]: 2 / 6
+    - button "전체화면" [ref=f10e40] [cursor=pointer]: ⛶
+    - button "다음 슬라이드" [ref=f10e41] [cursor=pointer]: ›
